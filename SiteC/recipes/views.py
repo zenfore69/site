@@ -3,7 +3,6 @@ from rest_framework import viewsets, status, generics, permissions
 from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser
 from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
-from rest_framework_simplejwt.tokens import RefreshToken
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.models import User
 from .models import Recipe, Comment, SearchHistory, Favorite, RecentlyViewed, RecipeAttribute, RecipeStepImage

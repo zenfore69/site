@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://meowsite-backend-production.up.railway.app';
+export const BASE_URL = 'https://web-production-b204.up.railway.app';

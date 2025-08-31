@@ -1,7 +1,6 @@
 from rest_framework import serializers
 from .models import Recipe, Comment, SearchHistory, Favorite, RecentlyViewed, RecipeAttribute, RecipeStepImage
 from django.contrib.auth.models import User
-import json
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaHeart } from 'react-icons/fa';
 
-const BASE_URL = 'https://meowsite-backend-production.up.railway.app';
+const BASE_URL = 'https://web-production-b204.up.railway.app';
 
 function RecipeCard({ recipe, onDelete, onEdit, user }) {
   const [isFavorite, setIsFavorite] = useState(false);

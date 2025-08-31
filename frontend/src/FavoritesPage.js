@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import RecipeCard from './RecipeCard';
 
-const BASE_URL = 'https://meowsite-backend-production.up.railway.app';
+const BASE_URL = 'https://web-production-b204.up.railway.app';
 
 function FavoritesPage({ user }) {
   const [favorites, setFavorites] = useState([]);
